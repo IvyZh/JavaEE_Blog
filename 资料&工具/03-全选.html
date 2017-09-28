@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+</head>
+<body>
+	
+	<input type="checkbox" id="boxId" onclick="selOrNo()" />全选/全不选<br/>
+	
+	<input type="checkbox" name="love" />篮球<br/>
+	<input type="checkbox" name="love" />足球<br/>
+	<input type="checkbox" name="love" />排球<br/>
+	<input type="checkbox" name="love" />羽毛球<br/>
+	
+	<input type="button" value="全选" onclick="selAll()"/>
+	<input type="button" value="全不选" onclick="selNo()"/>
+	<input type="button" value="反选" onclick="selOth()"/>
+
+</body>
+	<script type="text/javascript">
+		/* 
+			全选：
+				* 在全选的按钮上绑定单击事件
+				* 获取这四个input的标签，返回数组
+				* 循环遍历，拿到每一个input的标签
+				* 设置checked=true，所有的就都选上了.
+		*/
+		function selAll(){
+			// 获取inputs
+			var inputs = document.getElementsByName("love");
+			// 循环遍历，拿到每一个input对象
+			for(var x=0;x<inputs.length;x++){
+				var input = inputs[x];
+				// 设置属性
+				input.checked = true;
+			}
+		}
+		
+		/* 
+			全不选：
+				* 在全不选的按钮上绑定单击事件
+				* 获取这四个input的标签，返回数组
+				* 循环遍历，拿到每一个input的标签
+				* 设置checked=false，所有的就都选上了.
+		*/
+		function selNo(){
+			// 获取inputs
+			var inputs = document.getElementsByName("love");
+			// 循环遍历，拿到每一个input对象
+			for(var x=0;x<inputs.length;x++){
+				var input = inputs[x];
+				// 设置属性
+				input.checked = false;
+			}
+		}
+		
+		/* 
+			反选：
+				* 在反选绑定事件
+				* 获取这四个input的标签，返回数组
+				* 循环遍历，拿到每一个input的标签
+				* 判断我当前的input标签的checked== true，如果是true，设置成false
+				* 如果是false，设置true
+		*/
+		function selOth(){
+			// 获取inputs
+			var inputs = document.getElementsByName("love");
+			// 循环遍历，拿到每一个input对象
+			for(var x=0;x<inputs.length;x++){
+				var input = inputs[x];
+				// 判断当前input标签是
+				/* if(input.checked == true){
+					input.checked = false;
+				}else{
+					input.checked = true;
+				} */
+				input.checked = !input.checked;
+			}
+		}
+		
+		/* 
+			获取第一个input标签，判断checked是否为true
+			如果是true调用selAll
+			否则调用selNo
+		*/
+		function selOrNo(){
+			// 获取第一个input标签对象
+			var input = document.getElementById("boxId");
+			if(input.checked == true){
+				selAll();
+			}else{
+				selNo();
+			}
+		}
+	
+	</script>
+
+</html>

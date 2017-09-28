@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+</head>
+<body>
+	
+	<select id="select1" onchange="show(this.value)">
+		<option>--请选择--</option>
+		<option value="北京">北京</option>
+		<option value="湖北">湖北</option>
+		<option value="江苏">江苏</option>
+		<option value="日本">日本</option>
+	</select>
+	
+	<select id="select2">
+		
+	</select>
+	
+</body>
+	<script type="text/javascript">
+		/*  
+			编写数据
+				onchage：改变事件
+				this：当前对象
+		*/
+		var arr = [];
+		arr[0] = new Array("北京","海淀区","昌平区","朝阳区","东城区","西城区","丰台区","怀柔区");
+		arr[1] = new Array("湖北","武汉","天门","荆州","黄冈","黄石","十堰");
+		arr[2] = new Array("江苏","南京","苏州","无锡","徐州","盐城","连云港");
+		arr[3] = new Array("日本","东京","大阪","长崎","广岛","北海道","名古屋","奈良");
+		
+		function show(val){
+			// 获取select2
+			var select2 = document.getElementById("select2");
+			// 情况select2下面所有子节点
+			var options = select2.getElementsByTagName("option");
+			// 删除子节点
+			for(var i=options.length-1;i>=0;i--){
+				var op = options[i];
+				select2.removeChild(op);
+			}
+			
+			//alert(val);
+			// 和数组中的数据进行匹配
+			for(var x=0;x<arr.length;x++){
+				var inarr = arr[x];
+				//alert(inarr);
+				//alert(inarr[0]);
+				// 和val进行对比，如果相等，拿到后面的元素（从1位置开始）
+				if(val == inarr[0]){
+					// 循环
+					for(var y=1;y<inarr.length;y++){
+						var str = inarr[y];
+						//alert(str);
+						// 创建元素对象(option)
+						var option = document.createElement("option");
+						// 创建文本对象
+						var text = document.createTextNode(str);
+						// 把文本作为元素的子节点
+						option.appendChild(text);
+						// 元素加入到select2中
+						select2.appendChild(option);
+					}
+				}
+			}
+		}
+	
+	
+	</script>
+
+</html>
