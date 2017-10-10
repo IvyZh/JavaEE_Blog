@@ -1,0 +1,117 @@
+.change_btn {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+HTML {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.change_btn IMG.icon {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 32px; BACKGROUND: url(http://img.t.sinajs.cn/t35/appstyle/opent/images/app/btn_trans.gif?id=201104131414) 0px 0px; HEIGHT: 32px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.change_btn .number {
+	POSITION: relative; PADDING-LEFT: 6px; DISPLAY: inline-block; MARGIN-BOTTOM: 8px; BACKGROUND: url(http://img.t.sinajs.cn/t35/appstyle/opent/images/app/btn_trans.gif?id=201104131414) no-repeat 0px -98px; HEIGHT: 22px
+}
+.change_btn .number EM {
+	Z-INDEX: 2; POSITION: relative; LINE-HEIGHT: 22px; FONT-STYLE: normal; PADDING-RIGHT: 5px; DISPLAY: inline-block; FONT-FAMILY: verdana; BACKGROUND: url(http://img.t.sinajs.cn/t35/appstyle/opent/images/app/btn_trans.gif?id=201104131414) no-repeat right -98px; HEIGHT: 22px; FONT-SIZE: 11px; MARGIN-RIGHT: -1px
+}
+.change_btn IMG.arrow {
+	Z-INDEX: 3; POSITION: absolute; WIDTH: 5px; BOTTOM: -3px; BACKGROUND: url(http://img.t.sinajs.cn/t35/appstyle/opent/images/app/btn_trans.gif?id=201104131414) no-repeat -10px -136px; HEIGHT: 4px; MARGIN-LEFT: -2px; LEFT: 50%
+}
+.change_btn .type2 P {
+	TEXT-ALIGN: left
+}
+.change_btn .type2 IMG.icon {
+	WIDTH: 24px; BACKGROUND-POSITION: 0px -32px; HEIGHT: 24px
+}
+.change_btn .type2 .number {
+	MARGIN: 0px 0px -24px 29px; PADDING-LEFT: 9px; BACKGROUND-POSITION: 0px -74px; FLOAT: left; HEIGHT: 24px
+}
+.change_btn .type2 .number EM {
+	LINE-HEIGHT: 24px; PADDING-RIGHT: 9px; BACKGROUND-POSITION: right -74px; HEIGHT: 24px
+}
+.change_btn .type2 IMG.arrow {
+	POSITION: absolute; WIDTH: 5px; BACKGROUND-POSITION: -20px -136px; HEIGHT: 7px; TOP: 8px; LEFT: -2px
+}
+.change_btn .type3 P {
+	TEXT-ALIGN: left
+}
+.change_btn .type3 IMG.icon {
+	WIDTH: 16px; BACKGROUND-POSITION: 0px -56px; HEIGHT: 16px
+}
+.change_btn .type3 .number {
+	MARGIN: 0px 0px -24px 19px; PADDING-LEFT: 5px; BACKGROUND-POSITION: 0px -120px; FLOAT: left; HEIGHT: 16px
+}
+.change_btn .type3 .number EM {
+	LINE-HEIGHT: 16px; PADDING-RIGHT: 5px; BACKGROUND-POSITION: right -120px; HEIGHT: 16px
+}
+.change_btn .type3 IMG.arrow {
+	POSITION: absolute; WIDTH: 3px; BACKGROUND-POSITION: -30px -136px; HEIGHT: 5px; TOP: 6px; LEFT: 0px
+}
+.change_btn .type4 {
+	TEXT-ALIGN: right
+}
+.change_btn .type4 P {
+	TEXT-ALIGN: center
+}
+.change_btn .type4 IMG.icon {
+	WIDTH: 142px; BACKGROUND-POSITION: -32px 0px; HEIGHT: 32px
+}
+.change_btn .type4 .number {
+	MARGIN: 0px 1px 10px 0px; PADDING-LEFT: 10px; BACKGROUND-POSITION: 0px -74px; HEIGHT: 24px
+}
+.change_btn .type4 .number EM {
+	LINE-HEIGHT: 24px; PADDING-RIGHT: 11px; BACKGROUND-POSITION: right -74px; HEIGHT: 24px; FONT-SIZE: 13px
+}
+.change_btn .type4 IMG.arrow {
+	POSITION: absolute; WIDTH: 9px; BOTTOM: -6px; BACKGROUND-POSITION: 0px -136px; HEIGHT: 7px; RIGHT: 5px; LEFT: auto
+}
+.change_btn .type5 {
+	TEXT-ALIGN: right
+}
+.change_btn .type5 P {
+	TEXT-ALIGN: center
+}
+.change_btn .type5 IMG.icon {
+	WIDTH: 106px; BACKGROUND-POSITION: -32px -32px; HEIGHT: 24px
+}
+.change_btn .type5 .number {
+	MARGIN: 0px 1px 5px 0px; PADDING-LEFT: 9px; BACKGROUND-POSITION: 0px -98px; HEIGHT: 22px
+}
+.change_btn .type5 .number EM {
+	LINE-HEIGHT: 22px; PADDING-RIGHT: 9px; BACKGROUND-POSITION: right -98px; HEIGHT: 22px
+}
+.change_btn .type5 IMG.arrow {
+	POSITION: absolute; BACKGROUND-POSITION: -10px -136px; RIGHT: 7px; LEFT: auto
+}
+.change_btn .type6 {
+	TEXT-ALIGN: right
+}
+.change_btn .type6 P {
+	TEXT-ALIGN: center
+}
+.change_btn .type6 IMG.icon {
+	WIDTH: 86px; BACKGROUND-POSITION: -32px -56px; HEIGHT: 18px
+}
+.change_btn .type6 .number {
+	MARGIN: 0px 3px 6px 0px; PADDING-LEFT: 9px; BACKGROUND-POSITION: 0px -98px; HEIGHT: 22px
+}
+.change_btn .type6 .number EM {
+	LINE-HEIGHT: 22px; PADDING-RIGHT: 9px; BACKGROUND-POSITION: right -98px; HEIGHT: 22px
+}
+.change_btn .type6 IMG.arrow {
+	POSITION: absolute; BACKGROUND-POSITION: -10px -136px; RIGHT: 7px; LEFT: auto
+}
+.change_btn .number {
+	DISPLAY: none
+}
+.change_btn .showNum .number {
+	DISPLAY: inline-block
+}
+.change_btn P A {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium
+}

@@ -1,0 +1,57 @@
+.rich-content .edui-filter-underline {
+	TEXT-DECORATION: underline !important
+}
+.rich-content .edui-filter-line-through {
+	TEXT-DECORATION: line-through !important
+}
+.rich-content .edui-filter-decoration-none {
+	TEXT-DECORATION: none
+}
+.rich-content OL LI {
+	LIST-STYLE-TYPE: decimal !important
+}
+.rich-content OL.edui-filter-decimal LI {
+	LIST-STYLE-TYPE: decimal !important
+}
+.rich-content OL.edui-filter-lower-alpha LI {
+	LIST-STYLE-TYPE: lower-alpha !important
+}
+.rich-content OL.edui-filter-lower-roman LI {
+	LIST-STYLE-TYPE: lower-roman !important
+}
+.rich-content OL.edui-filter-upper-alpha LI {
+	LIST-STYLE-TYPE: upper-alpha !important
+}
+.rich-content OL.edui-filter-upper-roman LI {
+	LIST-STYLE-TYPE: upper-roman !important
+}
+.rich-content UL LI {
+	LIST-STYLE-TYPE: disc !important
+}
+.rich-content UL.edui-filter-disc LI {
+	LIST-STYLE-TYPE: disc !important
+}
+.rich-content UL.edui-filter-square LI {
+	LIST-STYLE-TYPE: square !important
+}
+.rich-content UL.edui-filter-circle LI {
+	LIST-STYLE-TYPE: circle !important
+}
+.rich-content .text-img-holder {
+	DISPLAY: block
+}
+.rich-content .edui-filter-align-center {
+	TEXT-ALIGN: center !important
+}
+.rich-content .edui-filter-align-left {
+	TEXT-ALIGN: left !important
+}
+.rich-content .edui-filter-align-right {
+	TEXT-ALIGN: right !important
+}
+.rich-content PRE {
+	FONT-FAMILY: monospace; WORD-WRAP: break-word
+}
+.rich-content PRE P {
+	MARGIN: 0px
+}
